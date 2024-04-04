@@ -1,8 +1,8 @@
-# streamlit run app.py 
-import streamlit as st 
-from utils import *
+import cv2
 
-# st.set_page_config(layout='wide')
+import streamlit as st 
+
+from utils import PATTERNS, FILES_TYPES, stImage_2_arrayImage, get_image_from_pattern, hex_to_rgb
 
 with st.sidebar :
     pattern = st.selectbox('Pattern', PATTERNS)

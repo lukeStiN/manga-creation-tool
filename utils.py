@@ -1,8 +1,9 @@
 import cv2
 import random, os
+
 from pathlib import Path
 import numpy as np
-os.system('cls')
+# os.system('cls')
 
 FILES_TYPES =  ['jpg', 'png', 'jpeg']
 
@@ -290,7 +291,7 @@ def get_image_from_pattern(pattern, images) :
 
 # START
 if __name__ == '__main__' :
-    DATA_PATH = r'F:\ImagesDataSets\one-piece-480p'
+    DATA_PATH = input('Inser path with images')
     DATA_PATH = Path(DATA_PATH)
 
     all_filenames = []
