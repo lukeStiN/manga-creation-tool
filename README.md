@@ -1,5 +1,7 @@
 # Manga Creation Tool
 
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://manga-creation-tool.streamlit.app/)
+
 Ce dépôt contient une application web permettant de créer des pages de manga en combinant plusieurs images avec différents motifs. L'application a été développée avec `Streamlit`.
 
 ## Accès à l'application web
